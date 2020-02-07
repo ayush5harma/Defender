@@ -8,4 +8,4 @@ to detect Windows malware without relying on any explicit signatures database th
 but by simply ingesting the dataset of malicious files we want to be able to detect and learning from it
 to distinguish between malicious code or not, both inside the dataset itself but, most importantly, 
 while processing new, unseen samples.
-
+Saad, Sherif & Briguglio, William & Elmiligi, Haytham. (2019). The Curious Case of Machine Learning In Malware Detection. 10.5220/0007470705280535. 
