@@ -1,0 +1,12 @@
+Property	            Description
+pe.has_configuration	True if the PE has a Load Configuration
+pe.has_debug	        True if the PE has a Debug section.
+pe.has_exceptions	True if the PE is using exceptions.
+pe.has_exports	        True if the PE has any exported symbol.
+pe.has_imports	        True if the PE is importing any symbol.
+pe.has_nx	        True if the PE has the NX bit set.
+pe.has_relocations	True if the PE has relocation entries.
+pe.has_resources	True if the PE has any resource.
+pe.has_rich_header	True if a rich header is present.
+pe.has_signature	True if the PE is digitally signed.
+pe.has_tls	        True if the PE is using TLS
