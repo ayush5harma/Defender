@@ -1,6 +1,6 @@
 # Malware Detection System
 >## Saad, Sherif & Briguglio, William & Elmiligi, Haytham. (2019). The Curious Case of Machine Learning In Malware Detection. 10.5220/0007470705280535. 
-**Note: Feature extracted Dataset is now available in release section.**
+**Note: Feature extracted Dataset is in the release section.**
 
 Traditional malware detection engines rely on the use of signatures(unique values that have been manually 
 selected by a malware researcher to identify the presence of malicious code).Problem in this approach is that the number of researchers is orders of magnitude smaller than the number of unique malware families they need to manually reverse engineer,
