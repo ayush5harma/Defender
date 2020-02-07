@@ -1,6 +1,6 @@
 # Malware Detection System
 >## Saad, Sherif & Briguglio, William & Elmiligi, Haytham. (2019). The Curious Case of Machine Learning In Malware Detection. 10.5220/0007470705280535. 
-**Note: Dataset is available in release section.**
+**Note: Feature extracted Dataset is now available in release section.**
 
 Traditional malware detection engines rely on the use of signatures(unique values that have been manually 
 selected by a malware researcher to identify the presence of malicious code).Problem in this approach is that the number of researchers is orders of magnitude smaller than the number of unique malware families they need to manually reverse engineer,
@@ -14,11 +14,8 @@ while processing new, unseen samples.
 - [x] Windows pe vector format details for feature extraction(*pe vector format details*) 
 - [x] Running feature extraction algorithm for reducing dataset using Google colab.(Reducing around 4TB of malware files available on avcaesar using it's api to minimal dataset containing vector details of classified pe files).
 - [x] Release feature extracted dataset (~400MB).
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ]
+- [ ] ..
+
 
 
 
