@@ -10,9 +10,10 @@ to detect Windows malware without relying on any explicit signatures database th
 but by simply ingesting the dataset of malicious files we want to be able to detect and learning from it
 to distinguish between malicious code or not, both inside the dataset itself but, most importantly, 
 while processing new, unseen samples.
-- [x] Preclassified windows pe malware repository available on https://avcaesar.malware.lu/.
-- [x] Windows pe vector format details for feature extraction(*pe vector format details*) 
-- [x] Running feature extraction algorithm for reducing dataset using Google colab.(Reducing around 4TB of malware files available on avcaesar using it's api to minimal dataset containing vector details of classified pe files).
+- [x] Selecting preclassified windows pe malware repository.(available on https://avcaesar.malware.lu/.)
+- [x] Study of Portable executable format.
+- [x] Choosing windows pe vector format details for feature extraction(*pe vector format details*) 
+- [x] Running feature extraction algorithm (encode.py) for reducing dataset using Google colab.(Reducing around 4TB of malware files available on avcaesar using it's api to minimal dataset containing vector details of classified pe files).
 - [x] Release feature extracted dataset (~400MB).
 - [ ] ..
 
