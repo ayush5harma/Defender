@@ -4,7 +4,9 @@ from keras.models import Sequential
 from keras.layers import Dense, Dropout
 
 def build_model(is_train):  
-    
+    # The model is a simple ANN with 486 inputs, two hidden
+    # layers of 70 neurons each, dropout of 30% while training
+    # and two output classes (0=clean 1=malicious)
     n_inputs = 486
     log.info("building model for %s ..." % 'training' if is_train else 'evaluation')
     if is_train:
