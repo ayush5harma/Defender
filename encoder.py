@@ -124,6 +124,7 @@ def encode_sections(pe):
     ]
 
 # encode a PE file into a vector of scalars
+
 def encode_pe(filepath):
     log.debug("encoding %s ...", filepath)
 
