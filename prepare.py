@@ -25,6 +25,7 @@ def prepare_classes():
         json.dump(encoder.classes, fp)
 
 # called during training to parse the dataset.
+
 def prepare_dataset(filename):
     prepare_names()
     prepare_classes()
