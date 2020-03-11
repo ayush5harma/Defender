@@ -10,7 +10,7 @@ def train_model(model, dataset):
             len(dataset.Y_val) ) )
     
     loss      = 'binary_crossentropy'
-    optimizer = 'adamax'
+    optimizer = 'adam'
     metrics   = ['accuracy']
     
     model.compile(loss = loss, optimizer = optimizer, metrics = metrics)
