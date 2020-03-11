@@ -11,6 +11,11 @@ but by simply ingesting the dataset of malicious files we want to be able to det
 to distinguish between malicious code or not, both inside the dataset itself but, most importantly, 
 while processing new, unseen samples.
 
+```
+Library to Instrument Executable Formats
+https://lief.quarkslab.com/
+
+```
 
 
 
