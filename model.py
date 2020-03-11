@@ -1,7 +1,9 @@
 import logging as log
 
+
 from keras.models import Sequential
 from keras.layers import Dense, Dropout
+
 
 def build_model(is_train):  
     # The model is a simple ANN with 486 inputs, two hidden
