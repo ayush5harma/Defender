@@ -72,7 +72,8 @@ The model we’re using is a computational structure called Artificial neural ne
 The main assumption is that there is a numerical correlation among the datapoints in our dataset that we don’t know about but that if known would allow us to divide that dataset into the output classes. What we do is asking this blackbox to ingest the dataset and approximate such function by iteratively tweaking its internal parameters.
 
 The **model.py** file contains definition of the ANN which is a fully connected network with two hidden layers of 70 neurons each, ReLU as the activation function and a dropout of 30% during training.  
-The training process can be started using 
+The training process can be started using   
+
 ```ergo train /project path --dataset /path/to/dataset.csv```  
 
 Once done, model's performance statistics can be viewed with:
