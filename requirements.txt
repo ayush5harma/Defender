@@ -1,2 +1,3 @@
 ergo-ai
 lief
+keras==2.2.4
