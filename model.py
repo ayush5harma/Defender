@@ -1,8 +1,8 @@
 import logging as log
 
 
-from keras.models import Sequential
-from keras.layers import Dense, Dropout
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Dropout
 
 
 def build_model(is_train):  
