@@ -17,10 +17,10 @@ def train_model(model, dataset):
 
     checkpath = os.path.join(os.path.dirname(os.path.abspath(__file__)), "checkpoints")
     os.makedirs(checkpath, exist_ok=True)
-    checkpath = os.path.join(checkpath, 'model-epoch{epoch:03d}-acc{val_acc:03f}.h5')
+    checkpath = os.path.join(checkpath, 'model-epoch{epoch:03d}-accuracy{val_accuracy:03f}.h5')
 
     # this will stop the training when the validation accuracy will stop changing
-    stopper = EarlyStopping(monitor = 'val_acc', min_delta=0.0001, patience = 5, mode = 'auto')
+    stopper = EarlyStopping(monitor = 'val_accuracy', min_delta=0.0001, patience = 5, mode = 'auto')
     # this will take snapshots of the best performing epoch
     saver = ModelCheckpoint(checkpath, save_best_only=True, verbose=1, monitor='val_loss', mode='min')
     # start training
