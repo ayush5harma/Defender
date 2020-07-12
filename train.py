@@ -1,7 +1,8 @@
 import os
 import logging as log
 
-from keras.callbacks import EarlyStopping, ModelCheckpoint
+from tensorflow.keras.callbacks import EarlyStopping
+from tensorflow.keras.callbacks import ModelCheckpoint
 
 # define training strategy
 def train_model(model, dataset):
