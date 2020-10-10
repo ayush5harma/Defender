@@ -1,4 +1,8 @@
 # Malware Detection API leveraging Artificial Neural Network
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/47772616/95663618-583a9e00-0b5e-11eb-8be8-79f6bd4dc811.png" />
+</p>
+
 Conceptualised from :  
 
 >### Saad, Sherif & Briguglio, William & Elmiligi, Haytham. (2019). The Curious Case of Machine Learning In Malware Detection. 10.5220/0007470705280535. 
